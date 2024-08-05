@@ -23,9 +23,10 @@
 Note|Description
 :----|:----
 Initial macOS Support|macOS 10.15, Catalina.
+Last Supported OS|macOS 15 Sequoia.
 
-- Opencore version: 1.0.0
-- Release date: 09/05/2024
+- Opencore version: 1.0.1
+- Release date: 05/08/2024
 
 # Basic Steps
 
@@ -77,7 +78,7 @@ Kext|Description
 [SmallTreeIntel82576.kext](https://github.com/khronokernel/SmallTree-I211-AT-patch/releases)| Required for I211 NICs, based off of the SmallTree kext but patched to support I211.<br>Required for most AMD boards running Intel NICs.
 [AppleIGB.kext](https://github.com/donatengit/AppleIGB/releases)|Required for I211 NICs running on macOS Monterey and above. Might have instability issues on some NICs, recommended to stay on Big Sur and use SmallTree. Requires macOS 12 and above.
 [AppleIGC.kext](https://github.com/SongXiaoXi/AppleIGC/releases)|Required for I226 NICs running on macOS Monterey and above. Might have instability issues on some NICs.
-[AppleIntelI210Ethernet.kext](https://github.com/luchina-gabriel/youtube-files/raw/main/AppleIntelI210Ethernet.kext.zip)|Required for Intel i225-V in macOS 13 (Monterey) and above.
+[AppleIntelI210Ethernet.kext](https://github.com/luchina-gabriel/youtube-files/raw/main/AppleIntelI210Ethernet.kext.zip)|Required for Intel i225-V in macOS 12 (Monterey) and above.
 
 ### WiFi and Bluetooth
 Kext|Description
@@ -165,7 +166,7 @@ iMacPro1,1|Because GPU integrated in 12th gen without support for Apple.
 
 \* *Without above settings, macOS will not be able to boot.*
 
-# macOS Sonoma 14.4 or above versions
+# macOS Sonoma 14.4 or above versions (including macOS Sequoia (v15))
 - Please configure `SecureBootModel` to `Disabled`;
 - After the installation is completed, you can return the value to 'Default';
 - If the above adjustment is not performed, the installation will be in a looping.
