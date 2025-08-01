@@ -1,8 +1,8 @@
-# 🛠️ Hackintosh - EFI BASE - Material de Apoio ao Curso Hackintosh Profissional e metodologias apresentadas no canal Universo Hackintosh
+# 🛠️ Hackintosh - EFI BASE & BASE EFI - Material de Apoio ao Curso Hackintosh Profissional e metodologias apresentadas no canal Universo Hackintosh
 
-Este repositório contém arquivos, ferramentas e exemplos utilizados como base prática e didática no curso **Hackintosh Profissional**, de autoria de Gabriel Luchina [Universo Hackintosh].
+Este repositório contém arquivos, ferramentas e exemplos utilizados como base prática e didática no curso **Hackintosh Profissional**, de autoria de **Gabriel Luchina** e da área de membros do canal Universo Hackintosh no YouTube.  
 
-Todo o conteúdo aqui é cuidadosamente selecionado e organizado para fins educacionais, oferecendo suporte técnico e aplicação prática de conceitos apresentados em aula e área de membros do canal Universo Hackintosh no YouTube.
+Todo o conteúdo aqui é cuidadosamente selecionado e organizado para fins educacionais, oferecendo suporte técnico e aplicação prática de conceitos apresentados em aulas do curso e área de membros do canal Universo Hackintosh no YouTube.  
 
 ---
 
@@ -20,17 +20,17 @@ Grande parte das implementações e conceitos aqui apresentados tem como base a 
 
 > ⚠️ **Atualização legal:**  
 > Este repositório passou a conter a cláusula completa da licença BSD-3, por recomendação jurídica.
-> Desde o início, o curso, canal Universo Hackintosh e seus materiais sempre reconheceram abertamente o OpenCore como base técnica, com as devidas referências indicadas em vídeos, aulas e neste no arquivo de README.md de todos os repositórios.
+> Desde o início, o curso, canal Universo Hackintosh e seus materiais sempre reconheceram abertamente o OpenCore como base técnica, com as devidas referências indicadas em vídeos, aulas e neste arquivo de COPYRIGHT.md de todos os repositórios.
 > A ausência anterior do texto integral da licença BSD-3 deveu-se apenas ao desconhecimento técnico, nunca por má-fé.
 
 ---
 
 ## 📄 Licença BSD-3-Clause (projeto OpenCore)
 
-Copyright (c) 2016-2017, The HermitCrabs Lab
-Copyright (c) 2016-2020, Download-Fritz
-Copyright (c) 2017-2020, savvas
-Copyright (c) 2016-2020, vit9696
+Copyright (c) 2016-2017, The HermitCrabs Lab  
+Copyright (c) 2016-2020, Download-Fritz  
+Copyright (c) 2017-2020, savvas  
+Copyright (c) 2016-2020, vit9696  
 
 Todos os direitos reservados.
 
@@ -44,10 +44,10 @@ ESTE SOFTWARE É FORNECIDO PELOS DETENTORES DO DIREITO AUTORAL E COLABORADORES �
 
 ---
 
-Copyright (c) 2016-2017, The HermitCrabs Lab
-Copyright (c) 2016-2020, Download-Fritz
-Copyright (c) 2017-2020, savvas
-Copyright (c) 2016-2020, vit9696
+Copyright (c) 2016-2017, The HermitCrabs Lab  
+Copyright (c) 2016-2020, Download-Fritz  
+Copyright (c) 2017-2020, savvas  
+Copyright (c) 2016-2020, vit9696  
 
 All rights reserved.
 
@@ -63,28 +63,40 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ---
 
-## 📘 Termos de Uso e Direitos Exclusivos
+## 📘🇧🇷 Termos de Uso e Direitos Exclusivos
 
-Os arquivos personalizados, chaves de verificação, marcações ocultas, organização didática, curadoria e demais elementos criados por Gabriel Luchina são de uso exclusivo dos alunos do curso *Hackintosh Profissional* e membros do canal *Universo Hackintosh*.
+Copyright (c) 2021-2025 Gabriel Luchina - Universo Hackintosh
 
-Em especial:
+Todos os direitos reservados.
 
-A *EFI BASE* ou *BASE EFI* disponibilizada exclusivamente aos membros do canal e alunos do curso;
+Este repositório e seu conteúdo (incluindo arquivos de configuração EFI, scripts, documentações e demais arquivos) são de uso exclusivo e não podem ser:
 
-E todo o material contido no Toolkit do curso;
+- Copiados, redistribuídos ou modificados, no todo ou em parte;
+- Utilizados para fins comerciais ou incluídos em cursos, vídeos, repositórios públicos ou privados, pagos ou gratuitos;
+- Incorporados em projetos derivados sem autorização expressa por escrito do autor.
 
-NÃO podem, em hipótese alguma, ser copiados, modificados, redistribuídos, utilizados ou adaptados, seja de forma parcial ou integral, mesmo para fins educacionais, sem a apresentação de um documento formal, assinado e com firma reconhecida em cartório, autorizando expressamente:
+O uso é limitado à consulta pessoal, sem qualquer permissão de reprodução e/ou redistribuição.
 
-1. A redistribuição;
+Qualquer violação sujeita o infrator a sanções cíveis e criminais conforme a legislação vigente (Lei de Direitos Autorais - Lei nº 9.610/98).
 
-2. A cópia;
+Para parcerias, licenciamento ou uso especial, entre em contato com: juridico@nue.com.br
 
-3. A modificação;
+## 📘🇺🇸 Terms of Use and Exclusive Rights
 
-4. Ou o uso para qualquer finalidade externa ao curso.
+Copyright (c) 2021–2025 Gabriel Luchina – Universo Hackintosh
 
-Qualquer uso não autorizado viola os direitos autorais do autor, podendo resultar em responsabilização civil e criminal conforme a legislação brasileira (Lei 9.610/98).
+All rights reserved.
 
-## ✉️ Contato
+This repository and its content (including EFI configuration files, scripts, documentation, and other files) are for exclusive use and may not be:
 
-E-mail: juridico@nue.com.br
+Copied, redistributed, or modified, in whole or in part;
+
+Used for commercial purposes or included in courses, videos, public or private repositories, whether paid or free;
+
+Incorporated into derivative projects without the author's express written permission.
+
+Use is limited to personal consultation only, with no permission for reproduction and/or redistribution.
+
+Any violation subjects the offender to civil and criminal penalties in accordance with applicable law (Brazilian Copyright Law – Law No. 9.610/98).
+
+For partnerships, licensing, or special usage requests, please contact: juridico@nue.com.br
