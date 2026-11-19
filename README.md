@@ -25,7 +25,7 @@ Last Supported OS|macOS 26 Tahoe.
 
 - Opencore version: 1.0.8
 - Release date (OC/Kexts): 27/09/2026
-- Last Update Repository: 27/09/2026
+- Last Update Repository: 19/11/2026
 
 # Basic Steps
 
@@ -193,6 +193,19 @@ iMacPro1,1|Because GPU integrated in 12th gen without support for Apple.
 	- for macOS Monterey 12.2.1 and below, please add `dk.e1000=0` in `boot-args`.
 	- for macOS Monterey 12.3 or newer, please add `e1000=0` in `boot-args`.
 	- for macOS Ventura, please add `e1000=0` in `boot-args` and add Kext [AppleIntelI210Ethernet.kext](https://github.com/luchina-gabriel/youtube-files/raw/main/AppleIntelI210Ethernet.kext.zip)
+
+# Special notes - For NVIDIA GPU
+
+boot-args
+- `nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 -amfipassbeta`
+
+csr-active-config
+- `03080000`
+- `430A0000`
+
+Other adjustments
+- Kernel > Block > "Allow NullMoth Nvidia Driver" > Enabled
+- WhateverGreen removed or disabled
 
 ### GPU-Specific `boot-args`
 Parameter|Description
